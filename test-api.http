@@ -1,0 +1,32 @@
+### Test Rejection API Endpoint
+GET http://localhost:8080/api/v1/rejection
+Content-Type: application/json
+
+### Test Health Endpoint
+GET http://localhost:8080/api/v1/health
+Content-Type: application/json
+
+### Test Actuator Health
+GET http://localhost:8080/actuator/health
+Content-Type: application/json
+
+### Test with Custom Headers
+GET http://localhost:8080/api/v1/rejection
+User-Agent: VS-Code-REST-Client
+Accept: application/json
+X-Forwarded-For: 192.168.1.100
+
+### Load Test - Multiple Requests
+GET http://localhost:8080/api/v1/rejection
+
+###
+GET http://localhost:8080/api/v1/rejection
+
+###
+GET http://localhost:8080/api/v1/rejection
+
+###
+GET http://localhost:8080/api/v1/rejection
+
+###
+GET http://localhost:8080/api/v1/rejection
