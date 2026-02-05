@@ -36,7 +36,7 @@ management:
         allowed-methods: "GET"
   endpoint:
     health:
-      show-details: when-authorized
+      show-details: always
       probes:
         enabled: true
   metrics:

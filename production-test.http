@@ -1,0 +1,19 @@
+### Test production homepage with enhanced UI
+GET https://your-app.railway.app/
+Accept: text/html
+
+### Test professional rejection API
+GET https://your-app.railway.app/api/v1/rejection
+User-Agent: Production-Client/1.0
+
+### Test real-time statistics endpoint
+GET https://your-app.railway.app/api/v1/health
+
+### Test API performance for frontend stats
+GET https://your-app.railway.app/api/v1/rejection
+GET https://your-app.railway.app/api/v1/rejection
+GET https://your-app.railway.app/api/v1/rejection
+
+### Verify CORS for frontend requests
+OPTIONS https://your-app.railway.app/api/v1/rejection
+Origin: https://your-app.railway.app
